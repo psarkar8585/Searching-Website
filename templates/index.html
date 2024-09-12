@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Project-tutorial</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>ITEM</h1>
+        <button class="button"><a href="{{url_for('add_item')}}">ADD ITEM</a></button>
+        <button class="button"><a href="{{url_for('item_list')}}">SHOW ITEM</a></button>
+    </div>
+
+    <div class="marquee">
+        <marquee behavior="" direction="">
+            Welcome to DevSearch, your go-to platform for discovering and connecting with developers and computer languages. Our mission is to streamline the process of finding the right tools and talent in the tech world.
+        || &copy; <span id="year"></span> Book Search Platform. All Rights Reserved. || Developed by: pritisarkar
+        </marquee>
+    </div>
+</body>
+</html>

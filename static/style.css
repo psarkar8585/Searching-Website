@@ -1,0 +1,225 @@
+*{
+    margin: auto;
+    padding: auto;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container1{
+    padding: 50px;
+    margin: 50px;
+    
+    text-align-last: center;
+    background-image: url("images/bg.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgba(255, 255, 255, 0.5);  */
+    /* Semi-transparent white background */
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Blur the background behind the element */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border for contrast */
+    
+    
+}
+.input_container{
+    padding: 50px;
+    margin: 50px;
+    text-align-last: center;
+    background-image: url("images/bg-additem.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgba(255, 255, 255, 0.5); */
+     /* Semi-transparent white background */
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Blur the background behind the element */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border for contrast */
+}
+.input_items{
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+.table_container{
+    padding: 50px;
+    margin: 50px;
+    text-align-last: center;
+
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Blur the background behind the element */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border for contrast */
+}
+.table td{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.table th{
+    margin: 10px;
+}
+.marquee{
+    margin: -60p;
+}
+.add-itembox{
+    padding: 50px;
+    margin: 50px;
+    text-align-last: center;
+
+    background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Blur the background behind the element */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: subtle border for contrast */
+}
+.header{
+    margin: 50px;
+    color: #eaeaea;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are merged */
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Light gray border for cells */
+    padding: 10px; /* Space inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for header */
+    color: #333; /* Darker text color for contrast */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping effect for even rows */
+}
+
+tr:hover {
+    background-color: #eaeaea; /* Highlight row on hover */
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+   
+    /* border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(170, 135, 135);
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #272829;
+    color: white;
+}
+
+
+.button {
+    background-color: #63505094; /* Green background */
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 10px 20px; 
+    /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #b28cc4c0; /* Darker green on hover */
+}
+.input{
+ padding: 10px;
+ margin: 5px;
+}
+.Ubutton {
+    background-color: #37b84c94; /* Green background */
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 10px 20px; 
+    /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  
+}
+Ubutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.Ubutton:hover {
+    background-color: #8cc4a8c0; /* Darker green on hover */
+}
+
+.Dbutton {
+    background-color: #f01f1f94; /* Green background */
+    border: none; /* Remove borders */
+    color: rgb(255, 255, 255); /* White text */
+    padding: 10px 20px; 
+    /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+  
+}
+Dbutton a{
+    color: white;
+    text-decoration: none;
+}
+
+.Dbutton:hover {
+    background-color: #c48c8cc0; /* Darker green on hover */
+}
